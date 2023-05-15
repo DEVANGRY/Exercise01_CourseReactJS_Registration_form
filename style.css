@@ -6,27 +6,27 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(117, 135, 135);
+    background-color: rgb(166, 165, 157);
 }
 .container {
     margin: auto;
-    padding-top: 2px;
-    height: 100px;
-    width: 300px;
+    padding-top: 6%;
+    height: 54vh;
+    width: 24vw;
 }
 .container .table_register .text_register {
     display: block;
     padding: 4px;
     border-radius: 8px;
-    color: rgb(32, 70, 6);
-    background-color: beige;
-    font-size: 25px;
+    color: rgb(106, 113, 102);
+    background-color: rgb(235, 223, 176);
+    font-size: 27px;
     font-weight: 600;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
 }
 .container .table_register .form_register {
-    margin-top: 5px;
+    margin-top: 15px;
     border-radius: 6px;
     background-color: rgb(234, 228, 228);
 }
@@ -49,11 +49,12 @@ body {
     margin-top: 15px;
     padding: 5px;
     width: 100%;
-    background-color: rgb(93, 209, 209);
+    background-color: rgb(170, 245, 245);
     text-align: center;
 }
 .table_register .info .register:hover {
     cursor: pointer;
     color: whitesmoke;
     background-color: rgb(34, 42, 185);
+    transition: 0.4s ease;
 }
